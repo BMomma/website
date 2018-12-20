@@ -1,0 +1,118 @@
+/* Website Styles */
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.banner {
+  height: 500px;
+  font-size: 40px;
+  color: green;
+  background-image: url(images/art-color-colourful-207665.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.title{
+  font-size: 60px;
+  text-decoration: none;
+  color: yellow;
+}
+
+body {
+  background-color: #81d4fa;
+  color: #0f0f7d;
+  font-size: 20px;
+  font-family: Helvetica, Arial, Calibri;
+  background-image: url(images/memphis-colorful.png)
+  /* background-image: repeat; */
+  /* margin: 60px; */
+}
+
+section {
+  border: 30px solid grey;
+  background-color: #81d4fa;
+  color: #0f0f7d;
+  margin: 20;
+  padding: 60px;
+}
+
+footer {
+  margin: 0;
+  background-color: pink;
+  padding: 20px;
+  text-align: right;
+  /* border-top: 5px solid grey; */
+}
+
+header {
+  /* border-bottom: 5px solid grey; */
+  padding: 30px;
+  background-color: pink;
+}
+
+header h1 {
+  /* background-color: red; */
+  color: red;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px 0;
+  margin-top: 20px;
+}
+
+h1 {
+  color: blue;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  color: blue;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+p {
+  margin: 20px 0;
+}
+
+ul, ol {
+  margin: 20px 0;
+}
+
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: white;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.welcome {
+  padding: 30px;
+  font-size: 36px;
+  background-color: #f1c4c4;
+}
+
+.welcome h2 {
+  line-height: 1.5;
+}
